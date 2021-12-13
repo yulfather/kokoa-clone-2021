@@ -1,0 +1,22 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: var(--main-bottom-border);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting span {
+  margin-left: 20px;
+}
+
+.fa-bullhorn,
+.fa-flask,
+.info-circle {
+  opacity: 0.8;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.5;
+}
