@@ -1,0 +1,26 @@
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fa-qrcode,
+.fa-address-book,
+.fa-id-card-alt,
+.fa-mail-bulk,
+.fa-calendar-alt,
+.fa-smile-beam {
+  font-size: 30px;
+}
+
+.icon-row__icon span {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 14px;
+}
